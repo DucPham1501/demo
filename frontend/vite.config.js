@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/hello": "demo-production-6bf1.up.railway.app",
+      "/hello": "https://demo-production-6bf1.up.railway.app/",
     },
   },
 });
